@@ -17,9 +17,9 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: db
-  username: postgres
-  password: password # docker-compose.ymlのPOSTGRES_PASSWORDで指定した値
+  host: <%= ENV.fetch("DATABASE_HOST") { 'db' }  %>
+  username: <%= ENV.fetch("POSTGRES_USER") { 'postgres' } %>
+  password: <%= ENV.fetch("POSTGRES_PASSWORD") { 'password' }  %>
   pool: 5
 
 development:
