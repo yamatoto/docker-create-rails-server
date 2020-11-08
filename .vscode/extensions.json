@@ -1,0 +1,37 @@
+{
+  "recommendations": [
+    "nucllear.vscode-extension-auto-import",
+    "snipsnapdev.snipsnap-vscode",
+    "vscode-icons-team.vscode-icons",
+    "blanu.vscode-styled-jsx",
+    "editorconfig.editorconfig",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "oderwat.indent-rainbow",
+    "zignd.html-css-class-completion",
+    "ms-ceintl.vscode-language-pack-ja",
+    "wmaurer.vscode-jumpy",
+    "pkief.material-icon-theme",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "ibm.output-colorizer",
+    "ionutvmi.path-autocomplete",
+    "christian-kohler.path-intellisense",
+    "mechatroner.rainbow-csv",
+    "chrmarti.regex",
+    "ms-vscode-remote.remote-containers",
+    "streetsidesoftware.code-spell-checker",
+    "johnpapa.vscode-peacock",
+    "alefragnani.bookmarks",
+    "coenraads.bracket-pair-colorizer",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "mindaro.mindaro",
+    "endverbraucher.pack-rails"
+  ],
+  "unwantedRecommendations": [
+    "davidanson.vscode-markdownlint",
+    "vscodevim.vim",
+    "github.vscode-pull-request-github"
+  ]
+}
